@@ -1,0 +1,21 @@
+{
+  "jHipsterApp": {
+    "simpleMessageWithServiceInterfaceDto": {
+      "home": {
+        "title": "Simple Message With Service Interface Dtos",
+        "createLabel": "Создать новый Simple Message With Service Interface Dto",
+        "createOrEditLabel": "Создать или отредактировать Simple Message With Service Interface Dto",
+        "notFound": "No Simple Message With Service Interface Dtos found"
+      },
+      "created": "Новый Simple Message With Service Interface Dto создан с идентификатором {{ param }}",
+      "updated": "Simple Message With Service Interface Dto обновлен с идентификатором {{ param }}",
+      "deleted": "Simple Message With Service Interface Dto удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Simple Message With Service Interface Dto {{ id }}?"
+      },
+      "detail": {
+        "title": "Simple Message With Service Interface Dto"
+      }
+    }
+  }
+}

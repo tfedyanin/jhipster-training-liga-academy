@@ -10,6 +10,7 @@
         "simpleMessage": "Simple Message",
         "simpleMessageWithService": "Simple Message With Service",
         "simpleMessageWithServiceInterface": "Simple Message With Service Interface",
+        "simpleMessageWithServiceInterfaceDto": "Simple Message With Service Interface Dto",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

@@ -24,6 +24,10 @@ import simpleMessageWithService, {
 import simpleMessageWithServiceInterface, {
   SimpleMessageWithServiceInterfaceState
 } from 'app/entities/simple-message-with-service-interface/simple-message-with-service-interface.reducer';
+// prettier-ignore
+import simpleMessageWithServiceInterfaceDto, {
+  SimpleMessageWithServiceInterfaceDtoState
+} from 'app/entities/simple-message-with-service-interface-dto/simple-message-with-service-interface-dto.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -40,6 +44,7 @@ export interface IRootState {
   readonly simpleMessage: SimpleMessageState;
   readonly simpleMessageWithService: SimpleMessageWithServiceState;
   readonly simpleMessageWithServiceInterface: SimpleMessageWithServiceInterfaceState;
+  readonly simpleMessageWithServiceInterfaceDto: SimpleMessageWithServiceInterfaceDtoState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -58,6 +63,7 @@ const rootReducer = combineReducers<IRootState>({
   simpleMessage,
   simpleMessageWithService,
   simpleMessageWithServiceInterface,
+  simpleMessageWithServiceInterfaceDto,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

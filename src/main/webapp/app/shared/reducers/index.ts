@@ -28,6 +28,10 @@ import simpleMessageWithServiceInterface, {
 import simpleMessageWithServiceInterfaceDto, {
   SimpleMessageWithServiceInterfaceDtoState
 } from 'app/entities/simple-message-with-service-interface-dto/simple-message-with-service-interface-dto.reducer';
+// prettier-ignore
+import simpleMessageWithServiceInterfaceDtoPagination, {
+  SimpleMessageWithServiceInterfaceDtoPaginationState
+} from 'app/entities/simple-message-with-service-interface-dto-pagination/simple-message-with-service-interface-dto-pagination.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -45,6 +49,7 @@ export interface IRootState {
   readonly simpleMessageWithService: SimpleMessageWithServiceState;
   readonly simpleMessageWithServiceInterface: SimpleMessageWithServiceInterfaceState;
   readonly simpleMessageWithServiceInterfaceDto: SimpleMessageWithServiceInterfaceDtoState;
+  readonly simpleMessageWithServiceInterfaceDtoPagination: SimpleMessageWithServiceInterfaceDtoPaginationState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -64,6 +69,7 @@ const rootReducer = combineReducers<IRootState>({
   simpleMessageWithService,
   simpleMessageWithServiceInterface,
   simpleMessageWithServiceInterfaceDto,
+  simpleMessageWithServiceInterfaceDtoPagination,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

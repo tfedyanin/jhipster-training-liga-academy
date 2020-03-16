@@ -11,6 +11,7 @@
         "simpleMessageWithService": "Simple Message With Service",
         "simpleMessageWithServiceInterface": "Simple Message With Service Interface",
         "simpleMessageWithServiceInterfaceDto": "Simple Message With Service Interface Dto",
+        "simpleMessageWithServiceInterfaceDtoPagination": "Simple Message With Service Interface Dto Pagination",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

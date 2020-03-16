@@ -46,6 +46,7 @@ public class CacheConfiguration {
             createCache(cm, ru.liga.domain.SimpleMessageWithService.class.getName());
             createCache(cm, ru.liga.domain.SimpleMessageWithServiceInterface.class.getName());
             createCache(cm, ru.liga.domain.SimpleMessageWithServiceInterfaceDto.class.getName());
+            createCache(cm, ru.liga.domain.SimpleMessageWithServiceInterfaceDtoPagination.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -10,6 +10,7 @@ import SimpleMessageWithServiceInterface from './simple-message-with-service-int
 import SimpleMessageWithServiceInterfaceDto from './simple-message-with-service-interface-dto';
 import SimpleMessageWithServiceInterfaceDtoPagination from './simple-message-with-service-interface-dto-pagination';
 import SimpleMessageWithServiceInterfaceDtoInfinityScroll from './simple-message-with-service-interface-dto-infinity-scroll';
+import SimpleMessageWithServiceInterfaceDtoInfinityScrollFiltering from './simple-message-with-service-interface-dto-infinity-scroll-filtering';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
@@ -27,6 +28,10 @@ const Routes = ({ match }) => (
       <ErrorBoundaryRoute
         path={`${match.url}simple-message-with-service-interface-dto-infinity-scroll`}
         component={SimpleMessageWithServiceInterfaceDtoInfinityScroll}
+      />
+      <ErrorBoundaryRoute
+        path={`${match.url}simple-message-with-service-interface-dto-infinity-scroll-filtering`}
+        component={SimpleMessageWithServiceInterfaceDtoInfinityScrollFiltering}
       />
       {/* jhipster-needle-add-route-path - JHipster will add routes here */}
     </Switch>

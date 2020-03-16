@@ -36,6 +36,10 @@ import simpleMessageWithServiceInterfaceDtoPagination, {
 import simpleMessageWithServiceInterfaceDtoInfinityScroll, {
   SimpleMessageWithServiceInterfaceDtoInfinityScrollState
 } from 'app/entities/simple-message-with-service-interface-dto-infinity-scroll/simple-message-with-service-interface-dto-infinity-scroll.reducer';
+// prettier-ignore
+import simpleMessageWithServiceInterfaceDtoInfinityScrollFiltering, {
+  SimpleMessageWithServiceInterfaceDtoInfinityScrollFilteringState
+} from 'app/entities/simple-message-with-service-interface-dto-infinity-scroll-filtering/simple-message-with-service-interface-dto-infinity-scroll-filtering.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -55,6 +59,7 @@ export interface IRootState {
   readonly simpleMessageWithServiceInterfaceDto: SimpleMessageWithServiceInterfaceDtoState;
   readonly simpleMessageWithServiceInterfaceDtoPagination: SimpleMessageWithServiceInterfaceDtoPaginationState;
   readonly simpleMessageWithServiceInterfaceDtoInfinityScroll: SimpleMessageWithServiceInterfaceDtoInfinityScrollState;
+  readonly simpleMessageWithServiceInterfaceDtoInfinityScrollFiltering: SimpleMessageWithServiceInterfaceDtoInfinityScrollFilteringState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -76,6 +81,7 @@ const rootReducer = combineReducers<IRootState>({
   simpleMessageWithServiceInterfaceDto,
   simpleMessageWithServiceInterfaceDtoPagination,
   simpleMessageWithServiceInterfaceDtoInfinityScroll,
+  simpleMessageWithServiceInterfaceDtoInfinityScrollFiltering,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

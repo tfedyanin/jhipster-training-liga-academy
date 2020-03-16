@@ -20,6 +20,7 @@
     <include file="config/liquibase/changelog/20200316141144_added_entity_SimpleMessageWithServiceInterfaceDto.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20200316141505_added_entity_SimpleMessageWithServiceInterfaceDtoPagination.xml" relativeToChangelogFile="false"/>
     <include file="config/liquibase/changelog/20200316142021_added_entity_SimpleMessageWithServiceInterfaceDtoInfinityScroll.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20200316143057_added_entity_SimpleMessageWithServiceInterfaceDtoInfinityScrollFiltering.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

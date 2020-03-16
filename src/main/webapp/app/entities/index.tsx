@@ -6,6 +6,7 @@ import ErrorBoundaryRoute from 'app/shared/error/error-boundary-route';
 
 import SimpleMessage from './simple-message';
 import SimpleMessageWithService from './simple-message-with-service';
+import SimpleMessageWithServiceInterface from './simple-message-with-service-interface';
 /* jhipster-needle-add-route-import - JHipster will add routes here */
 
 const Routes = ({ match }) => (
@@ -14,6 +15,7 @@ const Routes = ({ match }) => (
       {/* prettier-ignore */}
       <ErrorBoundaryRoute path={`${match.url}simple-message`} component={SimpleMessage} />
       <ErrorBoundaryRoute path={`${match.url}simple-message-with-service`} component={SimpleMessageWithService} />
+      <ErrorBoundaryRoute path={`${match.url}simple-message-with-service-interface`} component={SimpleMessageWithServiceInterface} />
       {/* jhipster-needle-add-route-path - JHipster will add routes here */}
     </Switch>
   </div>

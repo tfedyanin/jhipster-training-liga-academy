@@ -9,6 +9,7 @@
         "main": "Сущности",
         "simpleMessage": "Simple Message",
         "simpleMessageWithService": "Simple Message With Service",
+        "simpleMessageWithServiceInterface": "Simple Message With Service Interface",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

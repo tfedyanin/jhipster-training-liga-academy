@@ -28,6 +28,9 @@ export const EntitiesMenu = props => (
     <MenuItem icon="asterisk" to="/simple-message-with-service-interface-dto-pagination">
       <Translate contentKey="global.menu.entities.simpleMessageWithServiceInterfaceDtoPagination" />
     </MenuItem>
+    <MenuItem icon="asterisk" to="/simple-message-with-service-interface-dto-infinity-scroll">
+      <Translate contentKey="global.menu.entities.simpleMessageWithServiceInterfaceDtoInfinityScroll" />
+    </MenuItem>
     {/* jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here */}
   </NavDropdown>
 );

@@ -1,0 +1,21 @@
+{
+  "jHipsterApp": {
+    "simpleMessageWithService": {
+      "home": {
+        "title": "Simple Message With Services",
+        "createLabel": "Создать новый Simple Message With Service",
+        "createOrEditLabel": "Создать или отредактировать Simple Message With Service",
+        "notFound": "No Simple Message With Services found"
+      },
+      "created": "Новый Simple Message With Service создан с идентификатором {{ param }}",
+      "updated": "Simple Message With Service обновлен с идентификатором {{ param }}",
+      "deleted": "Simple Message With Service удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Simple Message With Service {{ id }}?"
+      },
+      "detail": {
+        "title": "Simple Message With Service"
+      }
+    }
+  }
+}
